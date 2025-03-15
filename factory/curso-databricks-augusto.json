@@ -1,0 +1,9 @@
+{
+	"name": "curso-databricks-augusto",
+	"location": "brazilsouth",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "d783b0d7-1b89-40d1-b091-96af2e715ad3",
+		"tenantId": "56755ed4-58d5-435d-ab72-fa2e1fafde90"
+	}
+}
