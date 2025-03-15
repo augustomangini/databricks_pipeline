@@ -13,7 +13,14 @@
 					"secureOutput": false,
 					"secureInput": false
 				},
-				"userProperties": []
+				"userProperties": [],
+				"typeProperties": {
+					"notebookPath": "/Users/augustomangini99@outlook.com/databricks_pipeline/notebooks/data_transformation_bronze"
+				},
+				"linkedServiceName": {
+					"referenceName": "databricks_datafactory_integration",
+					"type": "LinkedServiceReference"
+				}
 			},
 			{
 				"name": "ingestao_silver",
@@ -33,7 +40,14 @@
 					"secureOutput": false,
 					"secureInput": false
 				},
-				"userProperties": []
+				"userProperties": [],
+				"typeProperties": {
+					"notebookPath": "/Users/augustomangini99@outlook.com/databricks_pipeline/notebooks/data_transformation_silver"
+				},
+				"linkedServiceName": {
+					"referenceName": "databricks_datafactory_integration",
+					"type": "LinkedServiceReference"
+				}
 			}
 		],
 		"annotations": []
