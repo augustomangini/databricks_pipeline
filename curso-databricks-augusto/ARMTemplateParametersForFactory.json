@@ -1,0 +1,15 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "curso-databricks-augusto"
+		},
+		"databricks_datafactory_integration_accessToken": {
+			"value": ""
+		},
+		"databricks_datafactory_integration_properties_typeProperties_existingClusterId": {
+			"value": "0315-192615-h69wflvi"
+		}
+	}
+}
